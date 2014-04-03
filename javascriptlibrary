@@ -18,7 +18,7 @@ var Shelf = function (n, l) {
     this.numOfBooks = 0;
     this.booksOnShelf = [];
     l.numOfShelves++;
-    console.log("A new shelf called " + n + " has been added to " + l.name + "." + l.name + " now contains " + l.numOfShelves + " shelf/shelves.");
+    console.log("A new shelf called " + n + " has been added to " + l.name + ".  " + l.name + " now contains " + l.numOfShelves + " shelf/shelves.");
 };
 
 // Books
